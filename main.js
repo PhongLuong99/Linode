@@ -3,7 +3,7 @@ const dotenv = require('dotenv');
 dotenv.config();
 const server = express();
 
-server.get('/echo', (req, res, next) => {
+server.get('/echo-1', (req, res, next) => {
     res.status(200).json({
         id: 1,
         description: 'hello',
