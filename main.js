@@ -15,5 +15,5 @@ server.get('/echo-1', (req, res, next) => {
 const PORT = process.env.PORT || 5001;
 
 server.listen(PORT, () => {
-  console.log('JSON Server is running ${PORT}');
+  console.log(`JSON Server is running ${PORT}`);
 });
